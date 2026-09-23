@@ -1,0 +1,26 @@
+# Ignore large raw merged datasets from NHANES (can be fetched via download scripts)
+nhanes_*.csv
+*.tar.gz
+*.zip
+
+# Intermediate LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+temp*.pdf
+test.pdf
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+
+# Scratch directory
+scratch/
+.system_generated/
