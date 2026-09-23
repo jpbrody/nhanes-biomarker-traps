@@ -79,7 +79,7 @@
 \thispagestyle{empty}
 \noindent
 \begin{minipage}{\linewidth}
-    \textsf{\textbf{\textcolor{preprintaccent}{\textsc{Preprint \textbullet{} Research Article}}}} \hfill \textsf{\footnotesize\textcolor{gray}{bioRxiv / medRxiv format \textbullet{} September 2026}}
+    \textsf{\textbf{\textcolor{preprintaccent}{\textsc{Preprint \textbullet{} Research Article}}}} \hfill \textsf{\footnotesize\textcolor{gray}{Research Square format \textbullet{} September 2026}}
     \vspace{3pt}\hrule height 1.2pt \vspace{14pt}
 \end{minipage}
 
@@ -400,38 +400,24 @@ This study has four primary limitations. First, NHANES is a cross-sectional surv
 % DECLARATIONS
 % ==============================================================================
 \section*{Declarations}
+\small
+\noindent\textbf{Ethics Approval and Consent to Participate:} NHANES survey protocols were reviewed and approved by the NCHS Research Ethics Review Board under continuous CDC protocols. All adult participants provided written informed consent at the time of examination. This study constitutes secondary analysis of publicly available, de-identified data and was determined to be exempt from institutional review board (IRB) review under 45 CFR 46.104(d)(4).\par\vspace{3pt}
+\noindent\textbf{Data Availability:} All data analyzed in this study are publicly available from the National Center for Health Statistics (NCHS) National Health and Nutrition Examination Survey repository (\url{https://www.cdc.gov/nchs/nhanes/}). Continuous NHANES survey cycles and Linked Mortality Files were accessed directly through official CDC/NCHS portals.\par\vspace{3pt}
+\noindent\textbf{Code Availability:} All Python, R, and statistical scripts used for data acquisition, preprocessing, demographic residualization, and causal auditing are openly available at \url{https://github.com/jpbrody/nhanes-biomarker-traps}.\par\vspace{3pt}
+\noindent\textbf{Competing Interests:} The author declares no competing financial or non-financial interests.\par\vspace{3pt}
+\noindent\textbf{Funding:} This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.\par\vspace{3pt}
+\noindent\textbf{Clinical Trial Registration:} This study is an observational causal audit and target trial emulation of secondary survey data and does not report a prospective interventional clinical trial.
 
-\paragraph{Ethics Approval and Consent to Participate}
-NHANES survey protocols were reviewed and approved by the NCHS Research Ethics Review Board under continuous CDC protocols. All adult participants provided written informed consent at the time of examination. This study constitutes secondary analysis of publicly available, de-identified data and was determined to be exempt from institutional review board (IRB) review under 45 CFR 46.104(d)(4).
-
-\paragraph{Data Availability}
-All data analyzed in this study are publicly available from the National Center for Health Statistics (NCHS) National Health and Nutrition Examination Survey repository (\url{https://www.cdc.gov/nchs/nhanes/}). Continuous NHANES survey cycles and Linked Mortality Files were accessed directly through official CDC/NCHS portals.
-
-\paragraph{Code Availability}
-All Python, R, and statistical scripts used for data acquisition, preprocessing, demographic residualization, and causal auditing are openly available at \url{https://github.com/jpbrody/nhanes-biomarker-traps}.
-
-\paragraph{Competing Interests}
-The author declares no competing financial or non-financial interests.
-
-\paragraph{Funding}
-This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
-
-\paragraph{Clinical Trial Registration}
-This study is an observational causal audit and target trial emulation of secondary survey data and does not report a prospective interventional clinical trial.
-
-% ==============================================================================
-% REFERENCES (TWO-COLUMN FORMAT)
-% ==============================================================================
 \section*{References}
 \addcontentsline{toc}{section}{References}
 
 \begin{multicols}{2}
-\small
+\footnotesize
 \raggedright
 \begingroup
 \renewcommand{\section}[2]{}
 \begin{thebibliography}{99}
-\setlength{\itemsep}{2pt}
+\setlength{\itemsep}{1pt}
 \setlength{\parskip}{0pt}
 
 \bibitem{ioannidis2005} Ioannidis JPA. Why most published research findings are false. \textit{PLoS Med}. 2005;2(8):e124. doi: \href{https://doi.org/10.1371/journal.pmed.0020124}{10.1371/journal.pmed.0020124}.

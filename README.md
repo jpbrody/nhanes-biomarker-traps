@@ -58,7 +58,7 @@ Before treating an automated biomarker interaction as a biological finding, appl
 @article{brody2026biomarker,
   title={The Biomarker Interaction Trap: A Causal Audit of Spurious Discoveries in NHANES},
   author={Brody, James P.},
-  journal={medRxiv},
+  journal={Research Square},
   year={2026},
   publisher={Cold Spring Harbor Laboratory}
 }
